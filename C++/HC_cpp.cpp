@@ -39,6 +39,7 @@ void calculate_distance(double x[N][2]) {
 			
 int main(int argc, char **argv)
 {
+	//example input of 5 points
 	double X[N][2] = { {1,1},{1,1.1},{3,3},{3.5,4},{8,9}};
 	int cluster[N],new_cluster_index=N,i,j,current_n_clusters=N;
 	printf("Hierarchical clustering\n---------------------------------------\n");

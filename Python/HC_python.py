@@ -9,9 +9,7 @@ import numpy as np
 from scipy.cluster.hierarchy import linkage, dendrogram
 from scipy.spatial.distance import pdist,squareform
 n=5;
-"""x=np.random.rand(n,2)"""
-
-x=np.array([[1,1],[1,1.1],[3,3],[3.5,4],[8,9]]);
+x=np.random.rand(n,2)
 
 distance_matrix=np.matrix(squareform(pdist(x,metric='euclidean')));
 dist=np.copy(distance_matrix)

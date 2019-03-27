@@ -1,7 +1,6 @@
 clc;
 clear All;
-%x=rand(20,2)+10;
-x=[1,1;1,1.1;3,3;3.5,4;8,9];
+x=rand(20,2)+10;
 n=length(x);
 y=pdist(x);
 distace_matrix=squareform(y);
